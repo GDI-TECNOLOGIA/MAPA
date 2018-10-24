@@ -1,0 +1,51 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table border="1px">
+<tr>
+<td>
+<form>
+	dinheiro<input type="text" name="Dinheiro" id="Dinheiro" disabled="disabled">
+	<input type="checkbox" id="c-din">
+	<br/>
+	
+	
+	cartão<input type="text" name="Cartao" id="Cartao" disabled="disabled">
+	<input type="checkbox" id="c-car">
+	<br/>
+	
+	
+	total<input type="text" name="TotalCompra" id="TotalCompra" disabled="disabled" value="500"><br/>
+	
+	
+	Deve: R$<Label name="deve" id="deve"></label>
+	<br/>
+	
+	troco: R$<Label name="troco" id="troco"></label>
+	<br/>
+	
+	<button id="calcula">resto</button>
+</form>
+</td>
+<td>
+Quantidade de Placas No estoque <label id="qtd" value="100">100</label><br/>
+Retirar<input type="text" name="retira" id="retira"><br/>
+Restantes:<label id="resta">100</label>
+	
+<label id="t" class="msg">Quantidade excedida favor corrigir</label>
+</td>
+
+</tr>
+
+</table>
+</body>
+
+
+
+<script src="jquery.js"></script>
+<script src="form.js"></script>
+</html>
+
+
